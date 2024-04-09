@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/fragmentFirst"
-        android:name="com.example.fragment.FragmentFirst"
+        android:name="com.example.combineapplication.FragmentFirst"
         android:label="FragmentFirst"
         tools:layout="@layout/first_fragment">
         <action
@@ -20,11 +20,11 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentTimer"
-        android:name="com.example.fragment.FragmentStopwatch"
+        android:name="com.example.combineapplication.FragmentStopwatch"
         android:label="FragmentTimer"
         tools:layout="@layout/timer_fragment"/>
     <fragment
         android:id="@+id/fragmentCalculator"
-        android:name="com.example.fragment.FragmentCalculator"
+        android:name="com.example.combineapplication.FragmentCalculator"
         android:label="FragmentCalculator" />
 </navigation>
