@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fragment.MainActivity">
+
+    <item
+        android:id="@+id/nav_home"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/nav_calculator"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_calculator"
+        android:title="Calculator"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/nav_stopwatch"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_stopwatch"
+        android:title="Stopwatch"
+        app:showAsAction="never" />
+</menu>
