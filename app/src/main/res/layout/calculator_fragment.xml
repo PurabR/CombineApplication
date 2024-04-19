@@ -14,9 +14,8 @@
         android:background="#CE93D8"
         app:navigationIcon="@drawable/ic_back"
         app:navigationIconTint="@color/white"
-        app:subtitle="Gaurav is using the calculator"
         app:subtitleTextColor="@color/white"
-        app:title="My First Calculator"
+        app:title="Calculator"
         app:titleTextColor="@color/white" />
 
     <LinearLayout
